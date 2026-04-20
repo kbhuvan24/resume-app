@@ -47,7 +47,7 @@ Output goes to the `dist/` folder. Deploy `dist/` to any static host.
 
 Just drag and drop the `dist/` folder, or connect your GitHub repo — both platforms auto-detect Vite projects.
 
-## 📁 Project Structure
+## 📁 Project Structure 
 
 ```
 src/
