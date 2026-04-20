@@ -1,0 +1,23 @@
+.app {
+  position: relative;
+  min-height: 100vh;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+/* Shared section divider glow */
+.section + .section::before {
+  content: '';
+  display: block;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(0, 212, 255, 0.15), transparent);
+  margin-bottom: 0;
+}
+
+/* Responsive font scaling */
+@media (max-width: 480px) {
+  .section { padding: 3rem 1rem; }
+}
